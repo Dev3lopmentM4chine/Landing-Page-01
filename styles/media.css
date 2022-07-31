@@ -1,0 +1,29 @@
+/*código responsivo*/
+@media screen and (max-width: 760px){
+
+        header{
+            flex-direction: column;
+        }
+        h1{
+            justify-content: center;
+        }
+        ul{
+          text-align: center;  
+        }
+        main{
+            flex-direction: column;
+        }
+        img{
+            display: none;
+        }
+        form{
+            margin: 0 auto;
+            width: 100%;
+        }
+        input{
+            align-self: center;
+        }
+        h2{
+            font-size: 38px;
+        }
+}
